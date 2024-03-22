@@ -1,0 +1,64 @@
+CRITICAL - 2022-11-18 07:49:47 --> Undefined variable $data
+in APPPATH\Views\karyawan\konfirmasiPesanan.php on line 206.
+ 1 APPPATH\Views\karyawan\konfirmasiPesanan.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\karyawan\\konfirmasiPesanan.php', 206)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\karyawan\\konfirmasiPesanan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('karyawan/konfirmasiPesanan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(187): view('karyawan/konfirmasiPesanan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->konfirmasiPesanan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-18 07:50:03 --> Attempt to read property "nama" on string
+in APPPATH\Views\karyawan\konfirmasiPesanan.php on line 224.
+ 1 APPPATH\Views\karyawan\konfirmasiPesanan.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on string', 'APPPATH\\Views\\karyawan\\konfirmasiPesanan.php', 224)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\karyawan\\konfirmasiPesanan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('karyawan/konfirmasiPesanan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(187): view('karyawan/konfirmasiPesanan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->konfirmasiPesanan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-18 07:50:28 --> Cannot access offset of type string on string
+in APPPATH\Views\karyawan\konfirmasiPesanan.php on line 224.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('karyawan/konfirmasiPesanan', [], true)
+ 4 APPPATH\Controllers\Karyawan.php(187): view('karyawan/konfirmasiPesanan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->konfirmasiPesanan()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-18 07:51:25 --> Attempt to read property "nama" on string
+in APPPATH\Views\karyawan\konfirmasiPesanan.php on line 224.
+ 1 APPPATH\Views\karyawan\konfirmasiPesanan.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on string', 'APPPATH\\Views\\karyawan\\konfirmasiPesanan.php', 224)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\karyawan\\konfirmasiPesanan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('karyawan/konfirmasiPesanan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(187): view('karyawan/konfirmasiPesanan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->konfirmasiPesanan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-18 07:52:52 --> Attempt to read property "jumlah" on string
+in APPPATH\Views\karyawan\konfirmasiPesanan.php on line 216.
+ 1 APPPATH\Views\karyawan\konfirmasiPesanan.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "jumlah" on string', 'APPPATH\\Views\\karyawan\\konfirmasiPesanan.php', 216)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\karyawan\\konfirmasiPesanan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('karyawan/konfirmasiPesanan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(187): view('karyawan/konfirmasiPesanan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->konfirmasiPesanan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-18 07:57:08 --> Unsupported operand types: array * string
+in APPPATH\Views\karyawan\konfirmasiPesanan.php on line 216.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('karyawan/konfirmasiPesanan', [], true)
+ 4 APPPATH\Controllers\Karyawan.php(187): view('karyawan/konfirmasiPesanan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->konfirmasiPesanan()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

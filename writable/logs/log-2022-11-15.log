@@ -1,0 +1,22 @@
+CRITICAL - 2022-11-15 10:09:38 --> Attempt to read property "no_pesanan" on null
+in APPPATH\Views\cetakTransaksi.php on line 20.
+ 1 APPPATH\Views\cetakTransaksi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "no_pesanan" on null', 'APPPATH\\Views\\cetakTransaksi.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cetakTransaksi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('cetakTransaksi', [], true)
+ 5 APPPATH\Controllers\Home.php(1023): view('cetakTransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->cetakTransaksi('09112260')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:12:37 --> Attempt to read property "no_pesanan" on null
+in APPPATH\Views\pembayaran.php on line 252.
+ 1 APPPATH\Views\pembayaran.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "no_pesanan" on null', 'APPPATH\\Views\\pembayaran.php', 252)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Home.php(996): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('09112260')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

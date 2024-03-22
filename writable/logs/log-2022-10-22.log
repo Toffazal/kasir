@@ -1,0 +1,66 @@
+CRITICAL - 2022-10-22 02:44:08 --> Undefined property: App\Controllers\Home::$Jabatan
+in APPPATH\Controllers\Home.php on line 96.
+ 1 APPPATH\Controllers\Home.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$Jabatan', 'APPPATH\\Controllers\\Home.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-22 02:44:37 --> count(): Argument #1 ($var) must be of type Countable|array, null given
+in APPPATH\Views\dashboard.php on line 237.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('dashboard', [], true)
+ 4 APPPATH\Controllers\Home.php(98): view('dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-22 04:05:22 --> Undefined variable $pegawai
+in APPPATH\Views\dashboard.php on line 294.
+ 1 APPPATH\Views\dashboard.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pegawai', 'APPPATH\\Views\\dashboard.php', 294)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(106): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-22 07:37:54 --> number_format(): Argument #2 ($decimals) must be of type int, string given
+in APPPATH\Views\menu.php on line 250.
+ 1 APPPATH\Views\menu.php(250): number_format('15000', 'C:\\xampp\\htdocs\\kasir')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('menu', [], true)
+ 5 APPPATH\Controllers\Home.php(124): view('menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-22 08:09:25 --> Too few arguments to function App\Controllers\Home::hapusMenu(), 0 passed in C:\xampp\htdocs\kasir\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 257.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->hapusMenu()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-22 08:43:47 --> Cannot redeclare App\Controllers\Home::menu()
+in APPPATH\Controllers\Home.php on line 279.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-10-22 08:43:54 --> Undefined variable $menu
+in APPPATH\Views\user.php on line 253.
+ 1 APPPATH\Views\user.php(253): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'APPPATH\\Views\\user.php', 253)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Controllers\Home.php(291): view('user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->user()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-22 09:04:23 --> Undefined variable $id
+in APPPATH\Controllers\Home.php on line 380.
+ 1 APPPATH\Controllers\Home.php(380): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Home.php', 380)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->simpanUser()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

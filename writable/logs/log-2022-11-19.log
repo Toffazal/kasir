@@ -1,0 +1,12 @@
+CRITICAL - 2022-11-19 07:51:57 --> Cannot redeclare App\Controllers\Karyawan::pemesanan()
+in APPPATH\Controllers\Karyawan.php on line 251.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-19 07:53:23 --> Invalid file: karyawan/pembayaran.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('karyawan/pembayaran.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('karyawan/pembayaran', [], true)
+ 3 APPPATH\Controllers\Karyawan.php(267): view('karyawan/pembayaran', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->lihatPesanan('19112245')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

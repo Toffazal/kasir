@@ -1,0 +1,262 @@
+CRITICAL - 2022-11-04 04:30:18 --> Undefined variable $hargaa
+in APPPATH\Views\pembayaran.php on line 269.
+ 1 APPPATH\Views\pembayaran.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hargaa', 'APPPATH\\Views\\pembayaran.php', 269)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Home.php(861): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('01112287')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 04:36:38 --> Call to undefined function App\Controllers\unmber_format()
+in APPPATH\Views\pembayaran.php on line 269.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 4 APPPATH\Controllers\Home.php(861): view('pembayaran', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('01112287')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 04:37:57 --> Unsupported operand types: string + string
+in APPPATH\Views\pembayaran.php on line 278.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 4 APPPATH\Controllers\Home.php(861): view('pembayaran', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('01112287')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 04:45:25 --> Cannot use object of type stdClass as array
+in APPPATH\Views\pembayaran.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 4 APPPATH\Controllers\Home.php(861): view('pembayaran', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('01112287')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 04:45:34 --> Cannot use object of type stdClass as array
+in APPPATH\Views\pembayaran.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 4 APPPATH\Controllers\Home.php(861): view('pembayaran', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('01112287')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 04:48:01 --> Call to undefined method App\Models\Pemesanan::getResultArray
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Home.php(852): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('01112287')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 04:48:11 --> Call to undefined method App\Models\Pemesanan::getResult
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Home.php(852): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('01112287')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 04:48:18 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\pembayaran.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 4 APPPATH\Controllers\Home.php(861): view('pembayaran', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('01112287')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 04:48:41 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\pembayaran.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 4 APPPATH\Controllers\Home.php(861): view('pembayaran', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('01112287')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 04:49:00 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\pembayaran.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 4 APPPATH\Controllers\Home.php(861): view('pembayaran', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('01112287')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 04:49:31 --> Call to undefined method App\Models\Pemesanan::result
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Home.php(852): CodeIgniter\Model->__call('result', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('01112287')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 04:56:12 --> Attempt to read property "value" on int
+in APPPATH\Views\pembayaran.php on line 10.
+ 1 APPPATH\Views\pembayaran.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "value" on int', 'APPPATH\\Views\\pembayaran.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Home.php(861): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('01112287')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 04:56:22 --> syntax error, unexpected token "=>", expecting ")"
+in APPPATH\Views\pembayaran.php on line 10.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 3 APPPATH\Controllers\Home.php(861): view('pembayaran', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('01112287')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 05:11:40 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\Karyawan.php on line 185.
+ 1 APPPATH\Controllers\Karyawan.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Controllers\\Karyawan.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->simpanPemesanan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 05:14:44 --> Undefined array key 1
+in APPPATH\Controllers\Karyawan.php on line 186.
+ 1 APPPATH\Controllers\Karyawan.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Karyawan.php', 186)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->simpanPemesanan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 05:14:56 --> Undefined array key 1
+in APPPATH\Controllers\Karyawan.php on line 186.
+ 1 APPPATH\Controllers\Karyawan.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Karyawan.php', 186)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->simpanPemesanan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 05:15:17 --> Undefined variable $a
+in APPPATH\Controllers\Karyawan.php on line 186.
+ 1 APPPATH\Controllers\Karyawan.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $a', 'APPPATH\\Controllers\\Karyawan.php', 186)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->simpanPemesanan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 05:17:11 --> Undefined array key 1
+in APPPATH\Controllers\Karyawan.php on line 185.
+ 1 APPPATH\Controllers\Karyawan.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Karyawan.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->simpanPemesanan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 05:18:50 --> Undefined array key 1
+in APPPATH\Controllers\Karyawan.php on line 185.
+ 1 APPPATH\Controllers\Karyawan.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Karyawan.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->simpanPemesanan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 05:23:09 --> syntax error, unexpected integer "1", expecting variable or "{" or "$"
+in APPPATH\Controllers\Karyawan.php on line 216.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Karyawan.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Karyawan')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Karyawan')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Karyawan', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 05:23:19 --> syntax error, unexpected integer "1", expecting variable or "{" or "$"
+in APPPATH\Controllers\Karyawan.php on line 216.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Karyawan.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Karyawan')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Karyawan')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Karyawan', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 07:45:05 --> syntax error, unexpected token ";"
+in APPPATH\Views\pembayaran.php on line 300.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 3 APPPATH\Controllers\Home.php(861): view('pembayaran', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('04112257')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 07:45:25 --> syntax error, unexpected token ";"
+in APPPATH\Views\pembayaran.php on line 300.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 3 APPPATH\Controllers\Home.php(861): view('pembayaran', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('04112257')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 07:45:38 --> syntax error, unexpected token ";"
+in APPPATH\Views\pembayaran.php on line 300.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 3 APPPATH\Controllers\Home.php(861): view('pembayaran', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('04112257')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 07:45:56 --> syntax error, unexpected token ";"
+in APPPATH\Views\pembayaran.php on line 300.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 3 APPPATH\Controllers\Home.php(861): view('pembayaran', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('04112257')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 08:06:00 --> Attempt to read property "waktu" on int
+in APPPATH\Views\pembayaran.php on line 281.
+ 1 APPPATH\Views\pembayaran.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "waktu" on int', 'APPPATH\\Views\\pembayaran.php', 281)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Home.php(861): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('04112257')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 08:06:30 --> Undefined variable $no
+in APPPATH\Controllers\Home.php on line 858.
+ 1 APPPATH\Controllers\Home.php(858): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no', 'APPPATH\\Controllers\\Home.php', 858)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('04112257')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 08:18:38 --> count(): Argument #1 ($var) must be of type Countable|array, null given
+in APPPATH\Views\karyawan\index.php on line 242.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('karyawan/index', [], true)
+ 4 APPPATH\Controllers\Karyawan.php(54): view('karyawan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 08:29:00 --> Attempt to read property "username" on null
+in APPPATH\Controllers\Karyawan.php on line 224.
+ 1 APPPATH\Controllers\Karyawan.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'APPPATH\\Controllers\\Karyawan.php', 224)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->hapusPemesanan('7')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 08:56:40 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Views\pembayaran.php on line 252.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 3 APPPATH\Controllers\Home.php(861): view('pembayaran', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('04112292')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

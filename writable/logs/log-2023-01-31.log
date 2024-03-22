@@ -1,0 +1,42 @@
+CRITICAL - 2023-01-31 02:16:50 --> Attempt to read property "jumlah" on null
+in APPPATH\Views\karyawan\pemesanan.php on line 250.
+ 1 APPPATH\Views\karyawan\pemesanan.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "jumlah" on null', 'APPPATH\\Views\\karyawan\\pemesanan.php', 250)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\karyawan\\pemesanan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('karyawan/pemesanan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(142): view('karyawan/pemesanan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->pemesanan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 02:17:13 --> Attempt to read property "jumlah" on null
+in APPPATH\Views\karyawan\pemesanan.php on line 250.
+ 1 APPPATH\Views\karyawan\pemesanan.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "jumlah" on null', 'APPPATH\\Views\\karyawan\\pemesanan.php', 250)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\karyawan\\pemesanan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('karyawan/pemesanan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(142): view('karyawan/pemesanan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->pemesanan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 02:18:40 --> Attempt to read property "jumlah" on null
+in APPPATH\Views\karyawan\pemesanan.php on line 285.
+ 1 APPPATH\Views\karyawan\pemesanan.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "jumlah" on null', 'APPPATH\\Views\\karyawan\\pemesanan.php', 285)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\karyawan\\pemesanan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('karyawan/pemesanan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(142): view('karyawan/pemesanan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->pemesanan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 03:18:48 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Home.php on line 141.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

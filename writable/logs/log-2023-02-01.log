@@ -1,0 +1,43 @@
+CRITICAL - 2023-02-01 00:15:52 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\dashboard.php on line 305.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('dashboard', [], true)
+ 4 APPPATH\Controllers\Home.php(140): view('dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 00:20:53 --> Attempt to read property "no_pesanan" on null
+in APPPATH\Views\pembayaran.php on line 252.
+ 1 APPPATH\Views\pembayaran.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "no_pesanan" on null', 'APPPATH\\Views\\pembayaran.php', 252)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Home.php(1066): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('1022345')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 00:23:57 --> Attempt to read property "no_pesanan" on null
+in APPPATH\Views\pembayaran.php on line 252.
+ 1 APPPATH\Views\pembayaran.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "no_pesanan" on null', 'APPPATH\\Views\\pembayaran.php', 252)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Home.php(1066): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('1022345')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 00:24:59 --> Attempt to read property "no_pesanan" on null
+in APPPATH\Views\pembayaran.php on line 252.
+ 1 APPPATH\Views\pembayaran.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "no_pesanan" on null', 'APPPATH\\Views\\pembayaran.php', 252)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Home.php(1066): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->pembayaran('1022345')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

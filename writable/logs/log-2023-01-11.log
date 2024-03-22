@@ -1,0 +1,50 @@
+CRITICAL - 2023-01-11 00:08:38 --> Undefined variable $namaPemesan
+in APPPATH\Controllers\Karyawan.php on line 210.
+ 1 APPPATH\Controllers\Karyawan.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $namaPemesan', 'APPPATH\\Controllers\\Karyawan.php', 210)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->simpanPemesanan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 00:10:08 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Karyawan.php on line 258.
+ 1 APPPATH\Controllers\Karyawan.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Controllers\\Karyawan.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->hapusPemesanan('11')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 00:11:08 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Karyawan.php on line 258.
+ 1 APPPATH\Controllers\Karyawan.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Controllers\\Karyawan.php', 258)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->hapusPemesanan('10')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 00:36:13 --> Undefined property: stdClass::$nama_pemesan
+in APPPATH\Controllers\Karyawan.php on line 334.
+ 1 APPPATH\Controllers\Karyawan.php(334): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_pemesan', 'APPPATH\\Controllers\\Karyawan.php', 334)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->simpanPesanan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 01:08:58 --> Attempt to read property "id" on null
+in APPPATH\Views\karyawan\akun.php on line 210.
+ 1 APPPATH\Views\karyawan\akun.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Views\\karyawan\\akun.php', 210)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\karyawan\\akun.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('karyawan/akun', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(76): view('karyawan/akun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 01:09:19 --> Attempt to read property "id" on null
+in APPPATH\Views\karyawan\akun.php on line 210.
+ 1 APPPATH\Views\karyawan\akun.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Views\\karyawan\\akun.php', 210)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\karyawan\\akun.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('karyawan/akun', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(76): view('karyawan/akun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

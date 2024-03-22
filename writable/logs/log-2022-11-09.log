@@ -1,0 +1,32 @@
+CRITICAL - 2022-11-09 01:51:56 --> Call to undefined function App\Controllers\nomor()
+in APPPATH\Controllers\Home.php on line 808.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->riwayat()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 01:55:24 --> Call to undefined function App\Controllers\nomor()
+in APPPATH\Controllers\Home.php on line 808.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->riwayat()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 01:58:56 --> Call to undefined function App\Controllers\nomor()
+in APPPATH\Controllers\Home.php on line 820.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->riwayat()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 01:59:08 --> Undefined variable $currentPage
+in APPPATH\Controllers\Home.php on line 786.
+ 1 APPPATH\Controllers\Home.php(786): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentPage', 'APPPATH\\Controllers\\Home.php', 786)
+ 2 APPPATH\Controllers\Home.php(820): App\Controllers\Home->nomor('2', 5)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->riwayat()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 02:00:27 --> Call to undefined function App\Controllers\nomor()
+in APPPATH\Controllers\Home.php on line 820.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->riwayat()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

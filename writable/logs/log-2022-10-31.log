@@ -1,0 +1,22 @@
+CRITICAL - 2022-10-31 22:11:45 --> Undefined variable $menu
+in APPPATH\Views\karyawan\riwayat.php on line 265.
+ 1 APPPATH\Views\karyawan\riwayat.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'APPPATH\\Views\\karyawan\\riwayat.php', 265)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\karyawan\\riwayat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('karyawan/riwayat', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(280): view('karyawan/riwayat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->riwayat()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-31 22:13:46 --> Undefined variable $pesanan
+in APPPATH\Views\karyawan\riwayat.php on line 296.
+ 1 APPPATH\Views\karyawan\riwayat.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pesanan', 'APPPATH\\Views\\karyawan\\riwayat.php', 296)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\karyawan\\riwayat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('karyawan/riwayat', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(280): view('karyawan/riwayat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Karyawan->riwayat()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
